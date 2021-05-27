@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.body {
+	font-family: Georgia, serif;
+	line-height: 1.5em;
+	background-size:cover;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:column;
+	flex: 1 1 auto;
+	justify-content: flex-start;
+	align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#Layer_1{
+	width:100px;
+	height:100px;
+	flex: 0 0 100px;
+	margin-right: auto;
+fill:#fff;
+fill-rule:evenodd;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ico {
+	color: white;
+	width:32px;
+	height:32px;
+}
+#listContainer {
+	list-style-type: none;
+	overflow: hidden;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0.5em;
+	margin:0;
+	flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list {
+  /*float: right;*/
+	margin:0 1em;
+	flex: 1 1 auto;	
+	cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+#navBar{
+	width:100%;
+	height:auto;
+	position:relative;  
+	top:0px;	
+	background-color:#191970;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#displayArea {
+	/*margin-left:10%;*/
+	/*margin-right:10%;*/
+	width:98%;
+	height:auto;
+	position:relative;  
+	top:2em;	
+	background-color:white;
+	justify-content: center;
+	border: solid 1px darkblue;
+	margin-bottom: 10%;
+	display:none;
+	flex-direction:column;
+	align-items: center;
+}
+#optTab{
+	display:none;
+	height:auto;
+}
+#displayTab{
+	width:100%;
+	overflow-x:auto;
+}
+
+table {
+	border-collapse: collapse;
+	width:100%;
+}
+
+td, th {
+	border: 1px solid #999;
+	padding: 0.5rem;
+	text-align: left;
+}
+
+th {
+	cursor: pointer;
+}
+thead {
+	background: #191970;
+	color:white;
+}
+tbody tr:nth-child(odd) {
+	background: #eee;
+}
+
+label {
+	margin:0.5em;
+}
+
+#clearInput{
+	width:24px;
+	height:24px;
+	cursor: pointer;
+}
+
+#clearInput2{
+	width:24px;
+	height:24px;
+	cursor: pointer;
+}
+
+#clearDisplay {
+	width:24px;
+	height:24px;
+	position:absolute;
+	right:2px;
+	cursor: pointer;
+}
+
+.error{
+	color: red;
+}
+
+.success{
+	color: green;
+}
+.App{
+  color:blueviolet;
 }

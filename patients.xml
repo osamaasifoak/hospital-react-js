@@ -1,0 +1,72 @@
+<patients>
+<patient>
+<dob>26 mars 1917</dob>
+<fName>Émile</fName>
+<fileNo>1</fileNo>
+<gender>M</gender>
+<lName>Léger</lName>
+</patient>
+<patient>
+<dob>3 février 1946</dob>
+<fName>Marie</fName>
+<fileNo>2</fileNo>
+<gender>F</gender>
+<lName>Bernard</lName>
+</patient>
+<patient>
+<dob>5 avril 1959</dob>
+<fName>Guy</fName>
+<fileNo>3</fileNo>
+<gender>M</gender>
+<lName>Chartrand</lName>
+</patient>
+<patient>
+<dob>2 septembre 1978</dob>
+<fName>André</fName>
+<fileNo>4</fileNo>
+<gender>M</gender>
+<lName>Côté</lName>
+</patient>
+<patient>
+<dob>4 novembre 1973</dob>
+<fName>Carole</fName>
+<fileNo>5</fileNo>
+<gender>F</gender>
+<lName>Lavoie</lName>
+</patient>
+<patient>
+<dob>2 décembre 1965</dob>
+<fName>Diane</fName>
+<fileNo>6</fileNo>
+<gender>F</gender>
+<lName>Martin</lName>
+</patient>
+<patient>
+<dob>25 janvier 1956</dob>
+<fName>Pauline</fName>
+<fileNo>7</fileNo>
+<gender>F</gender>
+<lName>Lacroix</lName>
+</patient>
+<patient>
+<dob>7 octobre 1912</dob>
+<fName>Arther</fName>
+<fileNo>8</fileNo>
+<gender>M</gender>
+<lName>St-Jean</lName>
+</patient>
+<patient>
+<dob>8 août 1980</dob>
+<fName>Marc</fName>
+<fileNo>9</fileNo>
+<gender>M</gender>
+<lName>Béchard</lName>
+</patient>
+<patient>
+<dob>23 juillet 1947</dob>
+<fName>Mario</fName>
+<fileNo>10</fileNo>
+<gender>M</gender>
+<lName>Chartrand</lName>
+</patient>
+</patients>
