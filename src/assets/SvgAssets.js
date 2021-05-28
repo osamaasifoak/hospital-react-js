@@ -118,3 +118,8 @@ export const logoSvg = () => {
     </svg>
   );
 };
+
+
+export const hospitalPatientsSvg=()=>{
+  return 
+}

@@ -5,27 +5,27 @@ import patientList from '../xml/patients.xml';
 export default [
   {
     name: "PATIENT BY LIST",
-    value: "1",
+    value: 1,
     data: patientList
 },
 {
     name: "LIST OF ESTABLISHMENTS",
-    value: "2",
+    value: 2,
     data: patientList
 },
 {
     name: "LIST OF HOSPITALS",
-    value: "3",
+    value: 3,
     data: hospitals
 },
 {
     name: "HOSPITALS BY PATIENT",
-    value: "4",
+    value: 4,
     data: hospitalisation
 },
 {
     name: "HOSPITALS AS PER PATIENT AND ESTABLISHMENTS",
-    value: "5",
+    value: 5,
     data: patientList
   },
 ];
