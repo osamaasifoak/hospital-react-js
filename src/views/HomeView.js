@@ -108,19 +108,9 @@ const HomeView = () => {
                     var searchResult =
                       result.hospitalisations?.hospitalisation.find(
                         (element, index) => element.fileNo[0] === e.target.value
-                        //  {
-                        //   if (element.fileNo[0] === e.target.value) {
-                        //     return element;
-                        //   }
-                        // }
                       );
                     console.log(searchResult);
-                    // console.log(result);
-                    // setDropdown1Data(null);
-                    // setTabIndex(null);
-                    // setDropdown1Data(result);
-                    // setTabIndex(index);
-                    setLoadedXML([searchResult]);
+                    setSearchedData([searchResult]);
                   });
                 }}
                 className="select-form"
@@ -143,9 +133,9 @@ const HomeView = () => {
                 ))}
               </select>
             </div>
-            {console.log(loadedXML)}
-            {loadedXML !== null && loadedXML !== undefined && (
-              <SearchHospitalByPatientComponent searchResult={loadedXML} />
+            {console.log(searchedData)}
+            {searchedData !== null && searchedData !== undefined && (
+              <SearchHospitalByPatientComponent searchResult={searchedData} />
             )}
           </>
           // <div className="btn-group  " key={index}>
