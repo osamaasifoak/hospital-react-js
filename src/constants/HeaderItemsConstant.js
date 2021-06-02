@@ -36,7 +36,7 @@ export default [
     value: 4,
     data: null,
     searchIn: hospitalisation,
-    dropdown: patientList,
-    dropdown1: null,
+    dropdown: hospitals,
+    dropdown1: hospitalisation,
   },
 ];
